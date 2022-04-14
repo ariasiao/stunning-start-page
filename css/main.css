@@ -1,1 +1,7 @@
-
+html{
+  box-sizing: border-box;
+  color: #323232;
+  background-color: #bebebe;
+  font-family: Georgia,serif;
+  line-height: 1.5;
+}
