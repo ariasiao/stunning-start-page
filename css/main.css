@@ -5,3 +5,27 @@ html{
   font-family: Georgia,serif;
   line-height: 1.5;
 }
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: grid;
+  grid-template-columns: auto 10rem auto;
+  grid-template-rows: auto 1.5rem;
+  grid-template-areas:
+  "left center right"
+  ". center .";
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  grid-area: center;
+  margin: 0;
+  z-index: 0;
+}
